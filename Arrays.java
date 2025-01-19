@@ -29,7 +29,7 @@ first element of the array is stored at the 0th index
 //    public static void main(String[] args) {
 //        int [] arr = new int [5]; // second way of creating an array
 //        arr[0]=4;
-//        arr[1]=5;
+//        arr[1]=5
 //        arr[2]=9;
 //        arr[3]=8;
 //        arr[4]=7;
