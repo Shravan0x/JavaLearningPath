@@ -4,11 +4,11 @@
 
 
 
+
+
+
 // this is the superclass that inherits or extends the features or properties of the subclass 
-//  we make the use of keyword extends to extend the features as used in this below example 
-
-
-
+//  we make the use of keyword extends to extend the features as used in this below example of a calculator and an adavnced calculator 
 
 class AdvCalc extends Calculator {
 
