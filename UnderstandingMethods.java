@@ -6,7 +6,7 @@ lets understand the syntax of creating the method
 
                static return_type  function_name (type arg1 ,type arg2 .....)
               {
-              //operations in here
+              //operations to be performed are in here
               }
 
 
@@ -25,15 +25,15 @@ lets understand the syntax of creating the method
  // solved problems on Methods
 
 // problem : 1 To add numbers using methods
-// public class UnderstandingMethods {
-//   static int addNO(int a , int b){
-//     return a+b;
-//   }
-//     public static void main(String[] args) {
-//         int add = addNO(5, 60);
-//         System.out.println("The sum is ="+add);
-//     }
-// }
+public class UnderstandingMethods {
+  static int addNO(int a , int b){
+    return a+b;
+  }
+    public static void main(String[] args) {
+        int add = addNO(5, 60);
+        System.out.println("The sum is ="+add);
+    }
+}
 
 
 // problem :2 Multiplication using Methods
@@ -156,31 +156,35 @@ class UnderstandingMethods{
 
     */
 
+// problem related to methods
+
+// class Computer {
+//     public void playmusic(){
+//         System.out.println("Playing music");
+//     }
+//     public String getMeApen(int cost){
+//         return "pen";
+//     }
+// }
+
+// public class UnderstandingMethods {
+//     public static void main(String[] args) {
+//         Computer obj = new Computer();
+//         obj.playmusic();
+//        String str = obj.getMeApen(5);
+//         System.out.println(str);
+//     }
+// }
 
 
-class Computer {
-    public void playmusic(){
-        System.out.println("Playing music");
-    }
-    public String getMeApen(int cost){
-        return "pen";
-    }
-}
+ // problem:
 
-public class UnderstandingMethods {
-    public static void main(String[] args) {
-        Computer obj = new Computer();
-        obj.playmusic();
-       String str = obj.getMeApen(5);
-        System.out.println(str);
-    }
-}
 // class Calc{
 //     public int addNO(int a,int b)/* here the a and b are the local variables*/{
 //         return  a+b;
 //     }
 // }
-// public class Methods {
+// public class UnderstandingMethods {
 //     public static void main(String[] args) {
 //         Calc c = new Calc();
 //         int r = c.addNO(5,6);
@@ -188,7 +192,11 @@ public class UnderstandingMethods {
 
 //     }
 // }
-// // so basically all the methods have the same name area but , they differ in the type and number of parameters example in first method
-// // the parameter is int r, in the second method the parameter is int l,int b  which are two parameters meaning they differ in number when compared with first and third method
-// // ,and in the third method the parameter is float r which differ in type
 
+
+
+/* conclusion
+so basically all the methods have the same name area but , they differ in the type and number of parameters example in first method
+the parameter is int r, in the second method the parameter is int l,int b  which are two parameters meaning they differ in number when compared with first and third method
+,and in the third method the parameter is float r which differ in type
+*/
